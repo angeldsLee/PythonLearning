@@ -4,11 +4,11 @@
 
 ####1 浏览器 browser
 
-几乎每天都会用到的软件。normally 叫作“the internet”。它的作用其实是接收输入到地址栏网址[例如](http://test.com/ ) 然后使用该信息向该网址对应的服务器提出请求request。
+几乎每天都会用到的软件。normally 叫作“the internet”。它的作用其实是接收输入到地址栏网址[http://test.com/](http://test.com/ ) 然后使用该信息向该网址对应的服务器提出请求request。
 
 ####2 地址 address 
 
-通常这是一个像```http://test.com/ ``` 一样的 URL Uniform Resource Locator，统一资源定位器，它告诉浏览器该打开哪个网站。前面的http指出了你要使用的协议 protocol ，这里我们用的是“超文本传输协议 Hyper-Text Transport Protocol”。
+通常这是一个像[http://test.com/](http://test.com/)一样的 URL Uniform Resource Locator，统一资源定位器，它告诉浏览器该打开哪个网站。前面的http指出了你要使用的协议 protocol ，这里我们用的是“超文本传输协议 Hyper-Text Transport Protocol”。
 还可以试试```ftp://ibiblio.org/```，这是一个“FTP 文件传输协议 File Transport Protocol ”的例子。"test.com"
 这部分是“主机名hostname”，也就是一个便于人阅读和记忆的字串，主机名会被匹配到一串叫作“IP 地址”的数字上面，这个“IP
 地址”就相当于网络中一台计算机的电话号码，通过这个号码可以访问到这台计算机。最后，URL 中还可以尾随一个“路径”，例如
@@ -17,7 +17,7 @@
 
 ####3 连接(connection) 
 
-一旦浏览器知道了协议(http)、服务器(http://test.com/ )、以及要获得的资源，它就要去创建一个连接。这个过程中，
+一旦浏览器知道了协议(http)、服务器[http://test.com/](http://test.com/)、以及要获得的资源，它就要去创建一个连接。这个过程中，
  浏览器让操作系统(Operating System, OS)打开计算机的一个“端口(port)”（通常是 80 端口），端口准备好以后，操作系统会回传给你的程序一个类似文件的东西，它所做的事情就是通过网络传输和接收数据，让你的计算机和
 http://test.com/ 这个网站所属的服务器之间实现数据交流。 当你使用 http://localhost:8080/ 访问
 你自己的站点时，发生的事情其实是一样的，只不过这次你告诉了浏览器要访问的是你自己的计算机(localhost)，
