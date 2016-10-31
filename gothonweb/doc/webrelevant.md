@@ -2,15 +2,15 @@
 
 ###1 
 
-####1 浏览器(browser)
+####1 浏览器 browser
 
 几乎每天都会用到的软件。normally 叫作“the internet”。它的作用其实是接收输入到地址栏网址[例如](http://test.com/)，然后使用该信息向该网址对应的服务器提出请求request。
 
-####2 地址(address) 
+####2 地址 address 
 
-通常这是一个像http://test.com/一样的 URL (Uniform Resource Locator，统一资源定位器)，它告诉浏览器该打开哪个网站。前面的http指出了你要使用的协议(protocol)，这里我们用的是“超文本传输协议(Hyper-Text Transport Protocol)”。
-还可以试试ftp://ibiblio.org/ ，这是一个“FTP 文件传输协议(File Transport Protocol)”的例子。test.com
-这部分是“主机名(hostname)”，也就是一个便于人阅读和记忆的字串，主机名会被匹配到一串叫作“IP 地址”的数字上面，这个“IP
+通常这是一个像```http://test.com/```一样的 URL Uniform Resource Locator，统一资源定位器，它告诉浏览器该打开哪个网站。前面的http指出了你要使用的协议 protocol ，这里我们用的是“超文本传输协议 Hyper-Text Transport Protocol”。
+还可以试试```ftp://ibiblio.org/```，这是一个“FTP 文件传输协议 File Transport Protocol ”的例子。"test.com"
+这部分是“主机名hostname”，也就是一个便于人阅读和记忆的字串，主机名会被匹配到一串叫作“IP 地址”的数字上面，这个“IP
 地址”就相当于网络中一台计算机的电话号码，通过这个号码可以访问到这台计算机。最后，URL 中还可以尾随一个“路径”，例如
 http://test.com//book/中的/book/，它对应的是服务器上的某个文件或者某些资源，通过访问这样的网址，你可以向服务器发出请求，
 然后获得这些资源。网站地址还有很多别的组成部分，不过这些是最主要的。
