@@ -4,7 +4,7 @@
 
 ####1 浏览器 browser
 
-几乎每天都会用到的软件。normally 叫作“the internet”。它的作用其实是接收输入到地址栏网址[例如](http://test.com/) 然后使用该信息向该网址对应的服务器提出请求request。
+几乎每天都会用到的软件。normally 叫作“the internet”。它的作用其实是接收输入到地址栏网址[例如](http://test.com/ ) 然后使用该信息向该网址对应的服务器提出请求request。
 
 ####2 地址 address 
 
